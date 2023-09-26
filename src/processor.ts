@@ -15,7 +15,7 @@ export const CONTRACT_ADDRESS = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174";
 export const processor = new EvmBatchProcessor()
   .setDataSource({
     archive: lookupArchive("polygon"),
-    chain: "https://polygon-rpc.com"
+    chain: "https://rpc.ankr.com/polygon"
   })
   .setFinalityConfirmation(10)
   .setFields({
