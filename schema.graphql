@@ -10,6 +10,7 @@ type Transfer @entity {
   blockNumber: Int!
   timestamp: DateTime!
   txHash: String!
+  token: String!
   from: Account!
   to: Account!
   amount: BigInt!

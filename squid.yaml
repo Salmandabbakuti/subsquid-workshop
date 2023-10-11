@@ -1,7 +1,7 @@
 manifestVersion: subsquid.io/v0.1
-name: usdc-transfers-eth-squid
+name: erc20-tracker
 version: 1
-description: "Basic example of processing evm logs "
+description: "Squid To Track All ERC20 Tokens On Ethereum"
 build:
 deploy:
   addons:
