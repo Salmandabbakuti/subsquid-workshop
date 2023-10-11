@@ -32,6 +32,9 @@ sqd process
 # starts the GraphQL API server at localhost:4350/graphql
 sqd serve
 
+# Set Deployment Key on CLI
+sqd auth -k <deployment key>
+
 # deploy the squid to the Subsquid network
 sqd deploy --org barriers .
 ```
